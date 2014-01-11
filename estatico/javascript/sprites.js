@@ -95,8 +95,8 @@ Q.Sprite.extend("Pacman", {
 			//mostramos la pantalla de perdiste
 			if (colision.obj.isA("Fantasma")) {
 
-				//Q.clearStages();
-				Q.stageScene("perdiste",1, {
+				Q.clearStages();
+				Q.stageScene("perdiste", {
 					sort : true
 				});
 			}
